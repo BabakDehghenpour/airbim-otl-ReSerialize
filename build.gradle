@@ -2,6 +2,8 @@ plugins {
     id 'java'
     id 'application'
     id 'maven-publish'
+    id 'org.sonarqube' version '2.7'
+    id 'jacoco'
 }
 
 group 'nl.rws.otl'
